@@ -132,3 +132,4 @@ This will start the registry
 docker run --entrypoint htpasswd registry:2 -Bbn user userpassword
 ```
 
+
