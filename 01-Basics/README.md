@@ -98,4 +98,37 @@ You can see each of the directives if you run the command:
 ```console
 docker image history ubuntu
 ```
+
+General Tips:
+- Put things that are likely to change on lower level layers.
+- Avoid creatung uncessary layers.
+
+# Multi Stage Builds
+ 
+Docker supports dthe ability to perform multi-stage builds. Multi stage busiles have more than one from Directive in the docker file and each of the from directives is a layer.
+
+Each stage begins with a bompletely new set of fule system layers, allow ing you to seledctive copy only the files that you need.
+
+When working with compiled languages, you can have one container do all the binaries, compiling, etc. and then copy the compiled application to another container.
+
+# Flattening an Image
+
+`docker export` will export the image to a tar file.
+`docker import` will import the tar file into a new image.
+
+# Registries
+
+The docker registry is a centralized repository for images. There are also ways to host your own registry.
+
+The registry contrainer holds everything you need to run a local registry.
+
+```console
+docker run -d -p 5000:5000 --restart=always --name registry registry:2
 ```
+
+This will start the registry
+
+```console
+docker run --entrypoint htpasswd registry:2 -Bbn user userpassword
+```
+
