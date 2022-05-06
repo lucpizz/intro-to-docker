@@ -34,15 +34,8 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
 ## Assignment
 
-Add the following routes to the app:
+Dockerize the app and run it on a Docker container.
 
-`/sum/<int:x>/<int:y>`
-
-`/multiply/<int:x>/<int:y>`
-
-`/divide/<int:x>/<int:y>`
-
-`/subtract/<int:x>/<int:y>`
 
 
 
