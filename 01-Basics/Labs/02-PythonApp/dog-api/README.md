@@ -36,11 +36,16 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
 Dockerize the app and run it on a Docker container.
 
+## Bonus
 
+You can run the tests with:
 
+```
+$ pytest
+```
 
+You will notice that the tests are failing.
 
-
-
+Make the changes to make them pass.
 
 

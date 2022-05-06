@@ -8,7 +8,7 @@ client = TestClient(app)
 def test_main_route():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json() == {"success": "true", "dogs": []}
+    assert response.json() == {"success": "true"}
 
 
 def test_get_route():
