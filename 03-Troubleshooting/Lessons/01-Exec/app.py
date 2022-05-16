@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    if os.env.get("USER"):
-        return f"<p>Hello, {os.env['USER']}!</p>"
+    if os.getenv("USER"):
+        return f"<p>Hello, {os.getenv['USER']}!</p>"
     else:
         return "<p>Hello, World!</p>"
 
