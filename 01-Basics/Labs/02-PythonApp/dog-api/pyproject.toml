@@ -4,9 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Justin Rice <jsrice7391@gmail.com>"]
 
-[scripts]
-start="gunicorn --bind 0.0.0.0:8000 -k uvicorn.workers.UvicornWorker main:app"
-
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = "^0.76.0"
