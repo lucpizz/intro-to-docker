@@ -23,3 +23,21 @@ When you have successfully launched the application. Please answer the following
 9. What Python package is used in the containers to connect to the database?
 10. What is the name of the database?
 
+
+## Cloud Classroom
+
+1. How many containers are created?
+2. What are the exposed ports of the created containers?
+3. What is the name of the database?
+4. What is flower?
+5. What is celery?
+6. What is redis used for here?
+7. What is each container and their role in the application?
+8. What is a volume?
+9. What is a network?
+10. Which services within the compose file are used for monitoring and logging?
+11. Which services within the compose file are databases?
+12. Which services within the compose file are web servers?
+
+
+
