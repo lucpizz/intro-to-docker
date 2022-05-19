@@ -29,7 +29,7 @@ When you have successfully launched the application. Please answer the following
 1. How many containers are created?
 2. What are the exposed ports of the created containers?
 3. What is the name of the database?
-4. What is flower?
+4. What is flower as it relates to this application?
 5. What is celery?
 6. What is redis used for here?
 7. What is each container and their role in the application?
@@ -38,6 +38,7 @@ When you have successfully launched the application. Please answer the following
 10. Which services within the compose file are used for monitoring and logging?
 11. Which services within the compose file are databases?
 12. Which services within the compose file are web servers?
+13. What front end framework is used?
 
 
 
